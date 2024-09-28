@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Relacion1E01_CarlosMN.Ejercicio01"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Ejercicio01"
+    BackgroundColor="black">
+
+    <VerticalStackLayout
+        Margin="25"
+        Spacing="25"
+        VerticalOptions="Center">
+        <Label
+            FontAttributes="Bold"
+            FontSize="25"
+            HorizontalTextAlignment="Center"
+            Text="Relación 1: Ejercicio 1"
+            TextColor="#CCCCCC" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            Text="Introduzca su Nombre"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="Nombre"
+            BackgroundColor="#2A2A2A"
+            Keyboard="Text"
+            Placeholder=""
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            Text="Introduzca sus Apellidos"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="Apellidos"
+            BackgroundColor="#2A2A2A"
+            Keyboard="Text"
+            Placeholder=""
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            Text="Introduzca su Edad"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="Edad"
+            BackgroundColor="#2A2A2A"
+            Placeholder=""
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <!--  En el boton creamos el evento Clicked que tendra en nombre "Button_Clicked" para asignarle funciones  -->
+        <Button
+            BackgroundColor="#7d7c7c"
+            Clicked="Button_Clicked"
+            FontSize="20"
+            Text="Acceder"
+            TextColor="White" />
+        <Label
+            x:Name="lblResultado"
+            FontAttributes="Bold"
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            Text=""
+            TextColor="#CCCCCC" />
+    </VerticalStackLayout>
+
+</ContentPage>
